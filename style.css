@@ -79,12 +79,13 @@ header h2:after {
 
 header ul.social {
 	position: absolute;
-	bottom: -70px;
-	right: 10px;
+	bottom: -90px;
+	right: -10px;
 }
 
 header ul.social li {
-	display: inline-block;
+	display: block;
+	float: left;
 }
 
 section {
@@ -122,6 +123,7 @@ article h5,
 article h6 {
 	font-family: "Graduate";
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 article h4 {
