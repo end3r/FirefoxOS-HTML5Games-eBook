@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'Graduate';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Graduate'),
+	local('Graduate-Regular'),
+	url(fonts/graduate.eot) format('embedded-opentype'),
+	url(fonts/graduate.ttf) format('truetype'),
+	url(fonts/graduate.woff) format('woff');
+}
+html {
+}
+
+body {
+	background: #efefef;
+	font-family: serif;
+	font-size: 16px;
+	color: #3f3f3f;
+}
+
+a {
+	color: #3d81bc;
+	text-decoration: none;
+}
+a:hover {
+	color: #3d81bc;
+	text-decoration: underline;
+}
+
+header {
+	background: url(img/bg.png) repeat;
+	border-top: 5px solid #f04d22;
+	height: 400px;
+	color: #eee;
+	font-size: 12px;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+	font-family: "Graduate";
+}
+
+header div {
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+header img {
+	float: left;
+	padding-left: 20px;
+}
+
+header h1 {
+	font-size: 40px;
+	margin: 35px 0;
+}
+
+header h2 {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+header h3 {
+	color: #999;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+header h2:before,
+header h2:after {
+	content: " - ";
+}
+
+header ul.social {
+	position: absolute;
+	bottom: -70px;
+	right: 10px;
+}
+
+header ul.social li {
+	display: inline-block;
+}
+
+section {
+	width: 800px;
+	margin: -60px auto 0;
+	box-shadow: 0 0 10px #666;
+	background: #fff;
+	padding-top: 100px;
+}
+
+article {
+	padding: 0 70px 20px;
+	line-height: 26px;
+	clear: both;
+}
+
+article ul {
+	padding: 0 0 5px 20px;
+}
+
+article ol ul {
+	list-style-type: disc;
+}
+
+article ol ul ul {
+	list-style-type: circle;
+}
+
+article p {
+	padding-bottom: 20px;
+}
+
+article h4,
+article h5,
+article h6 {
+	font-family: "Graduate";
+	text-align: center;
+}
+
+article h4 {
+	font-size: 22px;
+}
+
+article h5 {
+	font-size: 19px;
+}
+
+article h6 {
+	font-size: 16px;
+}
+
+footer {
+	background: url(img/bg.png) repeat;
+	height: 120px;
+}
+
+footer p {
+	width: 800px;
+	margin: 0 auto;
+	line-height: 60px;
+}
+
+footer p:before {
+	display: block;
+	content: "";
+	height: 40px;
+	background: #fff;
+}
+
+
+
