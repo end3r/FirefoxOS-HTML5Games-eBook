@@ -156,5 +156,8 @@ footer p:before {
 	background: #fff;
 }
 
-
-
+.form-styling {
+	position: absolute;
+	bottom: -50px;
+	right: 25px;
+}
